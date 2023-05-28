@@ -78,6 +78,7 @@ class PSignIn extends StatelessWidget {
                           decoration: InputDecoration(
                         hintText: 'Email',
                         hintStyle: TextStyle(
+                            color: const Color(0xff3b3b3b),
                             fontFamily: 'BentonSansRegular',
                             fontSize: 14.sp,
                             letterSpacing: .5.sp),
@@ -107,6 +108,7 @@ class PSignIn extends StatelessWidget {
                           decoration: InputDecoration(
                         hintText: 'Password',
                         hintStyle: TextStyle(
+                            color: const Color(0xff3b3b3b),
                             fontFamily: 'BentonSansRegular',
                             fontSize: 14.sp,
                             letterSpacing: .5.sp),

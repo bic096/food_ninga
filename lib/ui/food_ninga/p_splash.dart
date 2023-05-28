@@ -9,6 +9,7 @@ class PSplash extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBody: true,
       body: Stack(
         fit: StackFit.loose,
         alignment: AlignmentDirectional.center,
